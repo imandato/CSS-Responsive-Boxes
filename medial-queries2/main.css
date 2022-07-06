@@ -11,6 +11,15 @@ body {
   justify-content: space-around;
   
 }
+
+.container2{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
 .a {
   width: 100%;
   margin: 10px;
@@ -60,6 +69,12 @@ body {
     /* flex-direction: row; */
     /* flex-wrap: wrap;     */
   }
+
+  .container2{
+    background-color: gray;
+    display: flex;    
+  }
+
   .a {
     margin: 10px;
     background-color: orange;
