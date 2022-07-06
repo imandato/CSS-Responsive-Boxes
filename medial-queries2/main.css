@@ -20,7 +20,8 @@ body {
   width: 100%;
   justify-content: space-around;
 }
-.a {
+
+/* .a {
   width: 100%;
   margin: 10px;
   background-color: orange;
@@ -56,6 +57,45 @@ body {
   width: 100%;
   margin: 10px;
   background-color: paleturquoise;
+} */
+.a {
+  /* width: 100%; */
+  flex-grow: 1;
+  margin: 10px;
+  background-color: orange;
+}
+
+.b{
+  min-height: 15em;
+  flex-basis: auto;
+  width: 100%;
+  margin: 10px;
+  background-color: rosybrown;
+}
+
+.c {
+  flex-grow: 1;
+  margin: 10px;
+  background-color: brown;
+}
+
+.d {
+  flex-grow: 1;
+  margin: 10px;
+  background-color: olive;
+}
+
+.e {
+  flex-grow: 1;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.f {
+  /* width: 100%; */
+  flex-grow: 1;
+  margin: 10px;
+  background-color: paleturquoise;
 }
 
 
@@ -72,13 +112,14 @@ body {
 
   .container2{
     background-color: gray;
-    display: flex;    
+    display: flex; 
+    width: 80%;   
   }
 
   .a {
     margin: 10px;
     background-color: orange;
-    /* width: 100%; */
+    width: 100%;
   }
   
   .b{
@@ -89,18 +130,24 @@ body {
   
   .c {
     margin: 10px;
+    min-height: 10em;
+    flex-basis: auto;
     /* flex-grow: 1; */
     background-color: brown;
   }
 
   .d {
     margin: 10px;
+    min-height: 10em;
+    flex-basis: auto;
     /* flex-grow: 1; */
     background-color: olive;
   }
   
   .e {
     margin: 10px;
+    min-height: 10em;
+    flex-basis: auto;
     /* flex-grow: 1; */
     background-color: yellow;
   }
@@ -108,6 +155,7 @@ body {
   .f {
     margin: 10px;
     /* flex-grow: 1; */
+    
     background-color: paleturquoise;
   }
   
