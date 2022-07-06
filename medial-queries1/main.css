@@ -1,3 +1,56 @@
 body {
   background: blanchedalmond;
 }
+.container{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-around;
+  
+}
+.a {
+  margin: 10px;
+  flex-grow: 1;
+  background-color: orange;
+}
+
+.b{
+  margin: 10px;
+  flex-grow: 4;
+  background-color: rosybrown;
+}
+
+.c {
+  margin: 10px;
+  flex-grow: 1;
+  background-color: brown;
+}
+
+@media (min-width: 600px) {
+  .container{
+    background-color: gray;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;    
+  }
+  .a {
+    margin: 10px;
+    background-color: orange;
+    width: 100%;
+  }
+  
+  .b{
+    margin: 10px;
+    flex-grow: 4;
+    background-color: rosybrown;
+  }
+  
+  .c {
+    margin: 10px;
+    flex-grow: 1;
+    background-color: brown;
+  }
+
+}
